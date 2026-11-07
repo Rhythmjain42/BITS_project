@@ -1,0 +1,45 @@
+{
+  "features": [
+    "Gender",
+    "Age",
+    "Family_background",
+    "Relationship_status",
+    "Marital_status",
+    "Living_style",
+    "Current_semester",
+    "CGPA",
+    "friend_circle",
+    "Health_condition",
+    "Cost_without_study",
+    "Home_division"
+  ],
+  "target": "Depression",
+  "numeric": [
+    "Age",
+    "Current_semester",
+    "CGPA",
+    "Cost_without_study"
+  ],
+  "categorical": [
+    "Gender",
+    "Family_background",
+    "Relationship_status",
+    "Marital_status",
+    "Living_style",
+    "friend_circle",
+    "Health_condition",
+    "Home_division"
+  ],
+  "model_files": {
+    "Logistic Regression": "logistic_regression.joblib",
+    "Decision Tree": "decision_tree.joblib",
+    "KNN": "knn.joblib",
+    "Naive Bayes": "naive_bayes.joblib",
+    "Support Vector Machine": "svm.joblib"
+  },
+  "sklearn_version": "1.7.2",
+  "random_state": 2026,
+  "test_size": 0.2,
+  "n_train": 3571,
+  "n_test": 893
+}
