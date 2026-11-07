@@ -1,7 +1,5 @@
 """
 Student Depression Screening - Model Lab
-Loads the 5 saved pipelines from model/ and evaluates them on an uploaded test CSV.
-Nothing is retrained here.
 """
 import json
 from pathlib import Path
